@@ -1,4 +1,5 @@
 ﻿using System;
+using tabuleiro;
 
 namespace Projeto_Xadrez_Console
 {
@@ -6,7 +7,11 @@ namespace Projeto_Xadrez_Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Posicao P;
+            P = new Posicao(3, 4);
+
+            Console.WriteLine("Posição: " + P);
+            Console.Read();
         }
     }
 }
